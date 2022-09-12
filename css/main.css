@@ -24,6 +24,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 76px;
 }
 
 .logo {
@@ -72,12 +73,17 @@ body {
     column-gap: 30px;
 }
 
+.header-content {
+    max-width: 500px;
+    margin-top: 124px;
+}
+
 .header-heading {
     margin-bottom: 20px;
     font-weight: 600;
     font-size: 44px;
 }
 
-.header-heading p {
+.header-content p {
     line-height: 2;
 }
