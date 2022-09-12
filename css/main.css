@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 body {
-    font-family: 'Poppins', sans-serif;
     color: #000;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
 }
 
@@ -24,12 +24,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
     margin-bottom: 76px;
 }
 
 .logo {
     position: relative;
     padding: 0 12px 3px 0;
+    
     font-weight: 700;
     font-size: 32px;
     line-height: 1;
@@ -40,6 +42,7 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+
     content: "";
     display: block;
     width: 8px;
@@ -68,14 +71,13 @@ body {
 /* Header content */
 
 .header-row {
-    display: flex;
-    justify-content: space-between;
+    display: flex;justify-content: space-between;
     column-gap: 30px;
 }
 
 .header-content {
-    max-width: 500px;
     margin-top: 124px;
+    max-width: 500px;
 }
 
 .header-heading {
@@ -85,5 +87,34 @@ body {
 }
 
 .header-content p {
+    line-height: 2;
+}
+
+/* Services */
+
+.services {
+    padding: 90px 0;
+}
+
+.services-row {
+    display: flex;
+    column-gap: 30px;
+}
+.services-card {
+
+}
+
+.services-card-img{
+    margin-bottom: 30px;
+}
+
+.services-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.services-card p {
     line-height: 2;
 }
